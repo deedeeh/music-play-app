@@ -1,6 +1,5 @@
 body {
-  background: #000 url("./assets/images/main_bg.png") no-repeat fixed;
-  background-size: cover;
+  background: rgb(73, 72, 72) url("./assets/images/main_bg.png") no-repeat;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",

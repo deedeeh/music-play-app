@@ -3,7 +3,7 @@ import React from 'react';
 import { List } from 'semantic-ui-react';
 
 // relative paths dependencies
-import VideoCard from '../VideoCard/VideoCard'
+import VideoCard from '../VideoCard/VideoCard';
 
 const VideosCollection = (props) => {
   return (
@@ -15,4 +15,4 @@ const VideosCollection = (props) => {
   )
 }
 
-export default VideosCollection
+export default VideosCollection;
