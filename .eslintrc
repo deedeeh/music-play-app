@@ -21,6 +21,7 @@
   },
   "plugins": ["react", "html", "prettier", "import", "jsx-a11y"],
   "rules": {
+    "react/destructuring-assignment": "never",
     "react/jsx-filename-extension": [
       1,
       {
