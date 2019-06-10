@@ -34,3 +34,8 @@
   font-family: "RobotoLight", Verdana, sans-serif;
   color: rgb(168, 168, 168);
 }
+
+.list_items {
+  margin: 0 auto;
+  max-width: 500px;
+}

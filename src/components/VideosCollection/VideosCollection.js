@@ -1,17 +1,16 @@
 // Third party dependencies
 import React from 'react';
-import { List } from 'semantic-ui-react';
+import { List, Grid } from 'semantic-ui-react';
 
 // relative paths dependencies
 import VideoCard from '../VideoCard/VideoCard';
+import './VideosCollection.css'
 
 const VideosCollection = (props) => {
   return (
-    <div>
-      <List>
-          <VideoCard videosList= { props.videosList } />
-      </List>
-    </div>
+    <Grid>
+      <VideoCard videosList= { props.videosList } />
+    </Grid>
   )
 }
 
