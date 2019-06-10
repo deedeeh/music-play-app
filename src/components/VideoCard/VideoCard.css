@@ -22,7 +22,7 @@
 .video_header {
   font-family: "AlfaSlabOne", serif;
   color: rgb(88, 226, 194);
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
 }
 
 .video_content {
@@ -31,5 +31,6 @@
 }
 
 .video_date {
+  font-family: "RobotoLight", Verdana, sans-serif;
   color: rgb(168, 168, 168);
 }
