@@ -19,10 +19,20 @@
     url("../../assets/fonts/Roboto-Medium.ttf") format("truetype");
 }
 
+.title_img_container {
+  position: relative;
+}
+
 .video_header {
+  position: absolute;
+  width: 100%;
   font-family: "AlfaSlabOne", serif;
   color: rgb(88, 226, 194);
   letter-spacing: 0.06em;
+  bottom: 0;
+  left: 0;
+  padding: 25px 5em 25px 25px;
+  background-color: rgba(3, 3, 52, 0.7);
 }
 
 .video_content {
@@ -38,4 +48,12 @@
 .list_items {
   margin: 0 auto;
   max-width: 500px;
+}
+
+@media only screen and (min-width: 992px) {
+  .video_header {
+    font-size: 1.17em;
+    padding: 20px 4em 20px 20px;
+    line-height: 1.45em;
+  }
 }

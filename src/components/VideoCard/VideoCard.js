@@ -16,8 +16,10 @@ const VideoCard = (props) => {
       return (
         <Grid.Column mobile={16} tablet={8} computer={4} key={video.contentDetails.videoId}>
           <List.Item className='list_items'>
-            <Image src={video.snippet.thumbnails.high.url} />
-            <h3 className='video_header'>{video.snippet.title}</h3>
+            <div className='title_img_container'>
+              <Image src={video.snippet.thumbnails.high.url} />
+              <h2 className='video_header'>{video.snippet.title}</h2>
+            </div>
             <List.Content>
               <h4 className="video_date">Published on {`${getTheMonthAbbr} ${getTheday}, ${getTheyear}`}</h4>
               {
